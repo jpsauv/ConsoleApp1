@@ -2,11 +2,11 @@
 
 namespace ConsoleApp1
 {
-    class Program
+    class Prog2
     {
         static void Main(string[] args)
         {
-            string name = "James";
+            string name = "Jim";
             Console.WriteLine($"Hello {name}!!!");
         }
     }
