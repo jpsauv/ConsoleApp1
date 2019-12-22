@@ -7,20 +7,27 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            string[] lines = new string[0];
+            string[] origin = new string[0];
+            string[] changed = new string[0];
 
             try
             {
-                lines = File.ReadAllLines(@"C:\Users\James Sauve\Desktop\Creed.txt");
+                origin = File.ReadAllLines(@"C:\Users\James Sauve\Desktop\Creed.txt");
+                changed = File.ReadAllLines(@"C:\Users\James Sauve\Desktop\Creeda.txt");
             }
             catch (Exception)
             {
-                Console.WriteLine("The file was not found or there was another error.");
+                Console.WriteLine("Either the file was not found or there was another error.");
             }
 
-            foreach (string line in lines)
+            for (int i = 0; i < origin.Length; i++)
             {
-                Console.WriteLine(line);
+                string line = origin[i];
+
+
+
+
+
             }
         }
     }
