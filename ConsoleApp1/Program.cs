@@ -24,7 +24,7 @@ namespace ConsoleApp1
             {
                 string line = origin[i];
 
-
+                Console.WriteLine(line);
 
 
 
